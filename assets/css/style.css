@@ -82,6 +82,7 @@ footer i{
     margin-left: 10px;
     padding: 20px 0;
     display: block;
+    
 }
 .big{
     font-size: 30px;
@@ -90,10 +91,17 @@ footer i{
 .small{
     font-size: 10px;
 }
+.d_flex{
+    display: flex;
+}
 
+.command_left{
+   
+}
 .command_right{
     background-color: var(--zo-light);
     color: var(--zo-brillant);
     padding: 2rem;
     height: 100%;
 }
+
