@@ -43,7 +43,13 @@ header{
     padding: 1rem;
 }
 
-
+header .view, header .big_screen{
+    background-color: var(--zo-light);
+    padding: 0.3rem;
+    border-radius: 10px;
+    border: 1px solid var(--zo-light);
+    color: var(--zo-lighter);
+}
 /* #regione main */
 
 .user{
