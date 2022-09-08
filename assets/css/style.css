@@ -9,6 +9,10 @@
     --zo-light:#4A4A4A;
     --zo-secondary:#4BC800;
     --zo-primary:#222222;
+    --zo-brillant: #FF0000;
+
+
+
 }
 body{
     background-color: var(--zo-dark);
@@ -59,4 +63,37 @@ header .view, header .big_screen{
     position: absolute;
     bottom: 1.4rem;
     left: 0.4rem;
+}
+
+/* #region footer */
+footer{
+    background-color: var(--zo-primary);
+}
+.bottom_page{
+    width: 100%;
+    color: var(--zo-lighter);
+}
+
+footer .row{
+    justify-content: space-between;
+}
+
+footer i{
+    margin-left: 10px;
+    padding: 20px 0;
+    display: block;
+}
+.big{
+    font-size: 30px;
+}
+
+.small{
+    font-size: 10px;
+}
+
+.command_right{
+    background-color: var(--zo-light);
+    color: var(--zo-brillant);
+    padding: 2rem;
+    height: 100%;
 }
